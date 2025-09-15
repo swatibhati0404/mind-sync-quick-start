@@ -136,7 +136,7 @@ const ChatBot = () => {
       <Card className="h-[600px] flex flex-col border-border shadow-card">
         <CardContent className="flex-1 flex flex-col p-0">
           {/* Messages Area */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-4">
+          <div className="flex-1 overflow-y-auto p-6 space-y-4 min-h-0">
             {messages.map((message) => (
               <div
                 key={message.id}
